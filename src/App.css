@@ -1,0 +1,62 @@
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 36px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-ul a {
+  font-size: 24px;
+}
+
+.main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-ul h2 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 50px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+.main-ul p {
+  font-size: 28px;
+  width: 290px;
+  line-height: 36px;
+  padding-bottom: 30px;
+}
+.main-ul button {
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+
+.main_img img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
