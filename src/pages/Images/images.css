@@ -1,0 +1,115 @@
+.images-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+.main-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.baby-photo-card {
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.baby-photo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.classmates-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.image-wrapper:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image-wrapper .photo {
+  width: 100%;
+
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .images-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .images-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+}

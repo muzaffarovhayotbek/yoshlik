@@ -20,9 +20,7 @@ function App() {
               <li>
                 <NavLink to="/Story">Hikoyalar</NavLink>
               </li>
-              <li>
-                <NavLink to="/Images">Suratlar</NavLink>
-              </li>
+              <li><NavLink to="/Images">Suratlar</NavLink></li>
             </ul>
           </div>
         </div>

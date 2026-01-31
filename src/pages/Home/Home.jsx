@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Home";
 function Home() {
   return (
     <div>
-      <div className="container mx-auto px-4 py-10">
+      <div className="container mx-auto px-4 py-10 sm:flex flex-col">
         <h2 className="text-[28px] font-semibold leading-[42px] text-gray-800">
           Salom, men Muzaffarov Hayotbek.
           <br />
