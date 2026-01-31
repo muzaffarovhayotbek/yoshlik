@@ -1,0 +1,14 @@
+.main {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #1f2937;
+}
+@media (max-width: 768px) {
+  .main {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #1f2937;
+  }
+}

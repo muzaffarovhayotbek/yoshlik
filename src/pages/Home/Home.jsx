@@ -1,10 +1,10 @@
 import React from "react";
-import "./Home";
+import './Home.css'
 function Home() {
   return (
     <div>
-      <div className="container mx-auto px-4 py-10 sm:flex flex-col">
-        <h2 className="text-[28px] font-semibold leading-[42px] text-gray-800">
+      <div className="container mx-auto px-4 py-10">
+        <h2 className="main">
           Salom, men Muzaffarov Hayotbek.
           <br />
           Bu loyihani yaratishdan asosiy maqsadim — mening yoshlik davrimdagi
